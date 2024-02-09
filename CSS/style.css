@@ -179,4 +179,23 @@ body {
     Header Design
 =====================================================
  */
- 
+ .top-header{
+    background-color: var(--secondary-color);
+ }
+ .top-header span{
+    font-size: 0.875rem;
+    color: var(--white-color);
+    letter-spacing: 0.1062rem;
+ }
+ .navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+ }
+ .navigation-wrap .nav-item{
+    padding: 0 0.5rem;
+    transition: all 200ms linear;
+ }
