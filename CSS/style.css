@@ -232,3 +232,23 @@ body {
  .navigation-wrap.scroll-on .nav-link.active{
    color: var(--primary-color);
  }
+
+ /* 
+ ===========================================
+   top-banner Design
+============================================
+*/
+
+#home .carousel-caption{
+   top: 12rem;
+}
+#home .carousel-caption p {
+   max-width: 36.25rem;
+   margin: 1.0625rem auto;
+}
+
+/* 
+==========================================
+New-arrivals section Design 
+==========================================
+*/
