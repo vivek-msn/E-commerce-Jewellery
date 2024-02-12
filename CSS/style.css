@@ -221,19 +221,19 @@
 
  /* Change navbar styling on scroll */
 
- .navigation-wrap.scroll-on{
-   position: fixed;
-   background-color: var(--black-color);
-   top: 0;
-   left: 0;
-   width: 100%;
-   box-shadow: 0 0.125rem 1.75rem 1 rgb(0, 0, 0,0.09);
-   transition: all .15s ease-in-out 0s;
- }
- .navigation-wrap.navigation-wrap.scroll-on .nav-link:hover,
- .navigation-wrap.scroll-on .nav-link.active{
-   color: var(--primary-color);
- }
+   .navigation-wrap.scroll-on{
+      position: fixed;
+      background-color: var(--black-color);
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 0.125rem 1.75rem 1 rgb(0, 0, 0,0.09);
+      transition: all .15s ease-in-out 0s;
+   }
+   .navigation-wrap.navigation-wrap.scroll-on .nav-link:hover,
+   .navigation-wrap.scroll-on .nav-link.active{
+      color: var(--primary-color);
+   }
 
  /* 
  ===========================================
@@ -241,13 +241,13 @@
 ============================================
 */
 
-#home .carousel-caption{
-   top: 12rem;
-}
-#home .carousel-caption p {
-   max-width: 36.25rem;
-   margin: 1.0625rem auto;
-}
+   #home .carousel-caption{
+      top: 12rem;
+   }
+   #home .carousel-caption p {
+      max-width: 36.25rem;
+      margin: 1.0625rem auto;
+   }
 
 /* 
 ==========================================
