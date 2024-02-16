@@ -335,3 +335,20 @@
  .basket a i {
    color: var(--white-color);
  }
+ /* 
+ ==========================================
+ DEAL-OF-THE-DAY Section Design
+ ==========================================
+  */
+  .deal-of-the-day {
+   background-image: url("../images/img/img-4.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+ /* 
+ ==========================================
+ Blog Section Design
+ ==========================================
+  */
